@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/York-14/Design-portfolio-3.git"
+    "url": "git+https://github.com/Symbealab/Design-portfolio-3.git"
   },
   "bugs": {
-    "url": "https://github.com/York-14/Design-portfolio-3/issues"
+    "url": "https://github.com/Symbealab/Design-portfolio-3/issues"
   },
-  "homepage": "https://github.com/York-14/Design-portfolio-3#readme",
+  "homepage": "https://github.com/Symbealab/Design-portfolio-3#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

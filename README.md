@@ -2,15 +2,15 @@
 
 **黄金角シードによるフラクタル雪の結晶ジェネレーター**
 
-[![Live demo](https://img.shields.io/badge/demo-live-7aa2ff)](https://york-14.github.io/Design-portfolio-3/)
-[![CI](https://github.com/York-14/Design-portfolio-3/actions/workflows/ci.yml/badge.svg)](https://github.com/York-14/Design-portfolio-3/actions/workflows/ci.yml)
+[![Live demo](https://img.shields.io/badge/demo-live-7aa2ff)](https://symbealab.github.io/Design-portfolio-3/)
+[![CI](https://github.com/Symbealab/Design-portfolio-3/actions/workflows/ci.yml/badge.svg)](https://github.com/Symbealab/Design-portfolio-3/actions/workflows/ci.yml)
 
-▶ **デモ：<https://york-14.github.io/Design-portfolio-3/>**
+▶ **デモ：<https://symbealab.github.io/Design-portfolio-3/>**
 
 整数シード `n` から雪の結晶を決定的に生成し、
 「点から成長 → 角が増え続けてカオスへ → 消滅 → 次のシード」を無限に繰り返すアニメーション作品です。
 
-[![seed #0012 と UI](docs/hero.png)](https://york-14.github.io/Design-portfolio-3/?seed=12)
+[![seed #0012 と UI](docs/hero.png)](https://symbealab.github.io/Design-portfolio-3/?seed=12)
 
 ## コンセプト
 
@@ -28,9 +28,9 @@
 「でたらめに見えるが、実は最も偏りなく空間を埋める」黄金比の列が、シード探索を担います。
 `Math.random` は ESLint で禁止しています。
 
-[![seed #0000〜#0023](docs/gallery.png)](https://york-14.github.io/Design-portfolio-3/)
+[![seed #0000〜#0023](docs/gallery.png)](https://symbealab.github.io/Design-portfolio-3/)
 
-画像をクリックするとデモが開きます。気になる結晶は `?seed=番号` で直接開けます（例：[#0007](https://york-14.github.io/Design-portfolio-3/?seed=7)、[#0012](https://york-14.github.io/Design-portfolio-3/?seed=12)、[#0021](https://york-14.github.io/Design-portfolio-3/?seed=21)）。
+画像をクリックするとデモが開きます。気になる結晶は `?seed=番号` で直接開けます（例：[#0007](https://symbealab.github.io/Design-portfolio-3/?seed=7)、[#0012](https://symbealab.github.io/Design-portfolio-3/?seed=12)、[#0021](https://symbealab.github.io/Design-portfolio-3/?seed=21)）。
 
 ## シード生成プロトコル
 
@@ -133,7 +133,7 @@ $d \ge 18$ の中で、使う全軸が小さい分母の有理数から十分離
 
 ### 成長：点から結晶へ
 
-[![seed #0012 の成長](docs/growth.png)](https://york-14.github.io/Design-portfolio-3/?seed=12)
+[![seed #0012 の成長](docs/growth.png)](https://symbealab.github.io/Design-portfolio-3/?seed=12)
 
 腕がまっすぐな棒のまま全長に伸びた状態は、一度も現れないようにしています（`src/fractal/growth.ts`）。
 
@@ -208,7 +208,7 @@ rAF 間隔も見ているのは、Canvas2D のラスタライズが GPU 側で�
 
 ## 実行方法
 
-ブラウザで見るだけなら、デモ <https://york-14.github.io/Design-portfolio-3/> を開いてください。
+ブラウザで見るだけなら、デモ <https://symbealab.github.io/Design-portfolio-3/> を開いてください。
 `main` への push ごとに GitHub Actions（`.github/workflows/pages.yml`）が GitHub Pages へ自動デプロイします。
 
 ローカルで動かす場合：
@@ -251,7 +251,7 @@ npm run preview
 
 | コッホ先端（×2/(1−m)）                                                                                      | シェルピンスキー中心（×2）                                                                                               |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [![Koch zoom](docs/zoom-koch.png)](https://york-14.github.io/Design-portfolio-3/?seed=7&at=10.5&cycle=zoom) | [![Sierpinski zoom](docs/zoom-sierpinski.png)](https://york-14.github.io/Design-portfolio-3/?seed=21&at=10.5&cycle=zoom) |
+| [![Koch zoom](docs/zoom-koch.png)](https://symbealab.github.io/Design-portfolio-3/?seed=7&at=10.5&cycle=zoom) | [![Sierpinski zoom](docs/zoom-sierpinski.png)](https://symbealab.github.io/Design-portfolio-3/?seed=21&at=10.5&cycle=zoom) |
 
 ## 構成
 
