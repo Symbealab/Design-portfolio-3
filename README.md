@@ -275,3 +275,33 @@ scripts/       screenshot.cjs（Playwright）
   見た目への影響は小さいため、テストは 1 次元の一様性のみを対象にしています。
 - **性能の実測値**：手元の確認はヘッドレス Chromium（ソフトウェアラスタライズ）で行いました。
   GPU のある通常のブラウザでは、これより大幅に軽くなる想定です。
+
+## ライセンス / License
+
+### コード / Code
+このリポジトリのコードは [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) で公開しています。
+個人の学習・研究・趣味などの**非商用の利用・改変・再配布は自由**です。**商用利用はできません。**
+
+The code in this repository is licensed under the PolyForm Noncommercial License 1.0.0.
+Noncommercial use, modification and redistribution are permitted. **Commercial use is not permitted.**
+
+### 生成した画像 / Generated images
+このツールで生成した画像は、**個人の非商用の範囲**（スマホの壁紙、SNS への投稿など）で自由にお使いください。
+SNS に投稿するときは「Symbea Flower」または `@symbealab` を添えてもらえるとうれしいです。
+
+次のような**商用利用は禁止**します。
+- 画像やそれを使ったグッズ（T シャツ、プリント、ステッカーなど）の販売
+- 素材・壁紙・テンプレートとしての販売や再配布
+- 広告・ロゴ・商品パッケージなどへの利用
+- NFT としての発行・販売
+
+Images generated with this tool may be used freely for **personal, noncommercial purposes** (phone wallpapers, social media posts, etc.).
+Credit to "Symbea Flower" or `@symbealab` is appreciated.
+**Commercial use is prohibited**, including selling the images or merchandise using them, selling or redistributing them as assets/wallpapers/templates, use in advertising, logos or packaging, and minting or selling them as NFTs.
+
+### Symbea の作品 / Symbea artworks
+Symbea として公開・販売している作品（壁紙パック、SNS の投稿、グッズのデザインなど）の著作権は Symbealab に帰属します（All rights reserved）。
+
+### 商用利用のご相談 / Commercial licensing
+商用でのご利用を希望される場合は、Instagram [@symbealab](https://www.instagram.com/symbealab/) の DM でご相談ください。
+For commercial licensing, please contact [@symbealab](https://www.instagram.com/symbealab/) on Instagram.
